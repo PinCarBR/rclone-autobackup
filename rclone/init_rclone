@@ -1,0 +1,7 @@
+#!/bin/sh
+
+cp /scripts/* /etc/periodic/$FREQUENCY
+chmod a+x /etc/periodic/$FREQUENCY/*
+
+rclone sync $REMOTE_NAME:$BUCKET_NAME /opt/sync_folder
+crond -f -d 8

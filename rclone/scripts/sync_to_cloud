@@ -1,0 +1,3 @@
+#!/bin/sh
+
+rclone sync /opt/sync_folder $REMOTE_NAME:$BUCKET_NAME
