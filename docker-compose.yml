@@ -1,7 +1,7 @@
 version: "3"
 services:
     rclone:
-        image: rclone:1.50
+        image: rclone/rclone:1.50
         entrypoint: ["sh","/init_rclone"]
         container_name: rclone
         env_file: .env
