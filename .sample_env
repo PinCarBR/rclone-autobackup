@@ -1,3 +1,4 @@
+COMPOSE_PROJECT_NAME=docker_project_name (mainly required if you are using traefik reverse proxy created on another docker-compose file. Please check https://docs.docker.com/compose/networking/ for more details.
 RCLONE_CONFIG_MYGS_TYPE=google cloud storage
 RCLONE_CONFIG_MYGS_CLIENT_ID=
 RCLONE_CONFIG_MYGS_CLIENT_SECRET=
