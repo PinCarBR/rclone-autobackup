@@ -1,11 +1,6 @@
 # rclone-autobackup
 This repository can be used to create an auto backup feature to sync your local folder to the cloud using rclone.
 It is pre-configured to work with Google Cloud storage but it can be adjusted to work with any provider supported by rclone. Please check rclone documentation page at https://rclone.org to configure for your own cloud storage service.
-## Minimum VPS configuration
-- OS: Ubuntu 16.04 x64
-- RAM: 512 MB
-- CPU: 1
-- Disk space: 10 GB
 ## Setup Instructions
 ### Install Docker
 1. First, in order to ensure the downloads are valid, add the GPG key for the official Docker repository to your system:  
