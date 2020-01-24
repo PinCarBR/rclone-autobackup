@@ -24,3 +24,4 @@ services:
                 - ./auth/key.json:/auth/key.json:ro
                 - ./rclone/init_rclone:/init_rclone:ro
                 - ./rclone/scripts:/scripts:ro
+                - /etc/localtime:/etc/localtime:ro
