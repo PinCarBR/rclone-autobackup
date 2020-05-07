@@ -4,6 +4,8 @@ services:
         image: rclone/rclone:1.50
         entrypoint: ["sh","/init_rclone"]
         container_name: rclone
+        labels:
+            - traefik.enable=false
         env_file: .env
         cap_add:
           - MKNOD
